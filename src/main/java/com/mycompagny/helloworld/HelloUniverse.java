@@ -8,7 +8,7 @@ public class HelloUniverse {
         System.out.println(nbPlanete);
         nouvelle="Il y a quelques années cependant, elles étaient au nombre de :";
         System.out.println(nouvelle);
-        nbPlanete=9;
+        nbPlanete=++nbPlanete;
         System.out.println(nbPlanete);
     }
 }
